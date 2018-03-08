@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://vnsyntec.com.vn/' target='_blank'><img src='https://1.bp.blogspot.com/-N9loXB2fbV8/Wp6bTVArGwI/AAAAAAAAJcc/pjMoIFra1bEA1JJw-TCJ19RGC8nmv9lpACLcBGAs/s1600/logo-vnsyntec.jpg' width='500px'/><br/>BÁN BỘ ĐIỀU KHIỂN CNC</a>. Học tại nhà CEO Faceseo. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://vnsyntec.com.vn/' target='_blank'><img src='https://1.bp.blogspot.com/-N9loXB2fbV8/Wp6bTVArGwI/AAAAAAAAJcc/pjMoIFra1bEA1JJw-TCJ19RGC8nmv9lpACLcBGAs/s1600/logo-vnsyntec.jpg' width='500px'/><br/>BÁN BỘ ĐIỀU KHIỂN CNC</a>. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
